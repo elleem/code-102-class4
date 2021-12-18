@@ -15,3 +15,16 @@ else (answer=''){
 
 console:log holiday
 
+
+
+<script>
+function myFunctionyes() {
+  confirm("Excellent news!");
+}
+</script>
+
+<script>
+function myFunctionno() {
+  confirm("Sad panda.");
+}
+</script>
