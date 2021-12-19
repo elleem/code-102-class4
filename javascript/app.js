@@ -1,6 +1,4 @@
 let holiday = prompt ("Have you ever celebrated Presidents Day?!"); 
-let message ="Any day off is a good day off!";
-
 
 console.log ("holiday")
 
