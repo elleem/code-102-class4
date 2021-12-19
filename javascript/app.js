@@ -1,4 +1,4 @@
-let holiday = prompt "After reading this page, do you like Presidents day?"; 
+let holiday = prompt ("After reading this page, do you like Presidents day?"); 
 let message ="";
 
 if (answer=Yes) {
@@ -9,22 +9,24 @@ else if (answer=no){
     message= "Ouch! You need more holidays!"
 }
 
-else (answer=''){
+else if (answer=""){
     message= "Better luck next time!"
 }
 
-console:log holiday
+console.log ("holiday")
 
 
+document.getElementById("demo").addEventListener("click", myFunction1);
 
-<script>
-function myFunctionyes() {
-  confirm("Excellent news!");
+
+function myFunction1() {
+  document.getElementById("demo").innerHTML = "Excellent news!";
 }
-</script>
 
-<script>
-function myFunctionno() {
+ function myFunction2() {
+    document.getElementById("demo").innerHTML = "Sad panda!";
+}
+
+{
   confirm("Sad panda.");
 }
-</script>
