@@ -5,7 +5,7 @@ if (answer=Yes) {
     message= "Great news!!"
 }
 
-else if (answer=no) {
+else if (answer=no){
     message= "Ouch! You need more holidays!"
 }
 
