@@ -1,32 +1,26 @@
 let holiday = prompt ("Have you ever celebrated Presidents Day?!"); 
-let message ="";
+let message ="Any day off is a good day off!";
 
-if (answer=Yes) {
-    message= "Great news!!"
-}
-
-else if (answer=no){
-    message= "Ouch! You need more holidays!"
-}
-
-else if (answer="") {
-    message= "Better luck next time!"
-}
 
 console.log ("holiday")
 
 
-document.getElementById("demo").addEventListener("click", myFunction1);
-
 
 function myFunction1() {
-  document.getElementById("demo").innerHTML = "Excellent news!";
+  var txt;
+    if(confirm("then you're on the right page!")) {
+        txt="Excellent news!";
+    }
+    else {
+        txt="sad panda";
+    }
 }
 
+
  function myFunction2() {
-    document.getElementById("demo").innerHTML = "Sad panda!";
+    document.getElementById("demo").innerHTML = txt;
 }
 
 {
-  confirm("Sad panda.");
+  confirm("Any day off is a good day off!");
 }
