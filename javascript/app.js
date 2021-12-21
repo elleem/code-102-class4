@@ -1,24 +1,23 @@
-let holiday = prompt ("Have you ever celebrated Presidents Day?!"); 
 
-console.log ("holiday")
+function myFunction(dayOff){
+  if(dayOff == true){
 
+      document.write("You're in the right place!!");
+  }
+  else{
+      document.write("No party for you.");
+  }
 
-
-function myFunction1() {
-  var txt;
-    if(confirm("then you're on the right page!")) {
-        txt="Excellent news!";
-    }
-    else {
-        txt="sad panda";
-    }
 }
 
+let dayOff = confirm("Do you like having days off?");
+myFunction(dayOff);
 
- function myFunction2() {
-    document.getElementById("demo").innerHTML = txt;
-}
 
-{
-  confirm("Any day off is a good day off!");
-}
+
+
+
+
+
+
+
