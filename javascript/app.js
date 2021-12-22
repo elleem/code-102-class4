@@ -13,7 +13,7 @@ function myFunction(dayOff){
 let dayOff = confirm("Do you like having days off?");
 myFunction(dayOff);
 
-function survey() {
+function surveyButton() {
   document.getElementById("demo").innerHTML ="YOU CLICKED ME!";
 }
 
