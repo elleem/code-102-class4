@@ -1,4 +1,3 @@
-
 function myFunction(dayOff){
   if(dayOff == true){
 
@@ -13,13 +12,15 @@ function myFunction(dayOff){
 let dayOff = confirm("Do you like having days off?");
 myFunction(dayOff);
 
-function surveyButton() {
-  document.getElementById("demo").innerHTML ="YOU CLICKED ME!";
+
+function howManyDaysOff()
+{
+    let furloughDay = prompt("How many days do you take off for a holiday?");
+    for (let i = 1; i <= furloughDay; i++)
+    {
+      
+        document.write(i + "Vacation Request: ");
+    }
 }
 
-
-
-
-
-
-
+howManyDaysOff();
