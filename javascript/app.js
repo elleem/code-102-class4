@@ -19,7 +19,7 @@ function howManyDaysOff()
     for (let i = 1; i <= furloughDay; i++)
     {
       
-        document.write ('<br><img height=150 src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIwvx2LnhZV5jwCSk8s0b_gTT7JRRKp0yLFg&usqp=CAU"> ');     
+        document.write ('<br><img height=150 src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6K28iQr3abR6V4yuuNoD8NCh9-74qdAHOEw&usqp=CAU"> ');     
         document.write(i + "Vacation Request! ");
     }
 }
