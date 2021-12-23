@@ -26,3 +26,22 @@ function howManyDaysOff()
 
 howManyDaysOff();
 
+
+
+function getPractice ()
+
+{ 
+  let skiGear = 4;
+  let expYears =0; 
+
+  for (let i=1; i<= skiGear; i++) { 
+  let howMuchGear = prompt ("how many years of experience skiing do you have?");
+
+
+if (howMuchGear !== expYears) {
+  document.write ("You need new gear!");
+break;
+  }
+}
+}
+getPractice();
